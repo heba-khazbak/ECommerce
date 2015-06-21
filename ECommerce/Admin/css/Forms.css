@@ -1,0 +1,41 @@
+#Fname, #Lname, #pass, #phone, #Baddress,#Bcity,#Bstate,#Bzip,
+#Saddress,#Scity,#Sstate,#Szip
+{
+    padding: 5px;
+    border-color: grey;
+    border-width: 2px;
+    border-style: hidden;
+    background-color:ghostwhite;
+    margin: 1%;
+}
+
+.editForm
+{
+    margin: 35px;
+    margin-bottom: 45px;
+ 
+}
+
+#pass, #Bzip
+{
+    margin-left: 2%;
+}
+
+#Baddress
+{
+    margin-right: 3.5%;
+}
+
+#Saddress
+{
+    margin-right: 4.2%;
+}
+
+#Scity, #Sstate
+{
+    margin-right: 1.8%;
+}
+#phone
+{
+    margin-right: 2%;
+}

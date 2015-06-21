@@ -1,0 +1,36 @@
+#name, #des, #Qs, #price,#category, #sub, #pic, #ID
+{
+    padding: 5px;
+    border-color: grey;
+    border-width: 2px;
+    border-style: hidden;
+    background-color:ghostwhite;
+    margin: 1%;
+}
+
+
+.editForm 
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#des, #sub
+{
+    margin-right: 4%;
+}
+
+#Qs
+{
+    margin-right: 7%;
+}
+
+#category
+{
+    margin-right: 2%;
+}
+
+#price
+{
+    margin-left:  2%;
+}

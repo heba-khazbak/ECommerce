@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+    <title>ZLASH - Welcome</title>    
+    <link rel="stylesheet" href="css/Main.css" type="text/css"/>
+    <link rel="stylesheet" href="css/SignUp.css" type="text/css"/>
+</head>
+    
+    <body>
+        
+        <div class="Header">
+        <a href="HomePage.php">
+        <img src="css/Logo.png" alt="Logo" style="width:633; height:181px" >
+        </a>
+        </div>
+    
+        <div class="Header1">
+            <p >Welcome to ZLASH, Please fill your data to sign Up</p>
+        </div>
+
+        <div class="cont">
+ 
+ 
+ <form  class="editForm"  action=validation.php method="POST">
+<i>FirstName</i>:<br>
+<input type="text" name = "FirstName" id="Fname">
+<span class="error">*</span>
+ <br><br>
+<i>LastName</i>:<br>
+<input type="text" name = "LastName" id="Lname">
+<span class="error">*</span>
+<br><br>
+<i>BillingAddress</i>:<br>
+<input type="text" name= "BillingAddress" id="Baddress">
+<span class="error">*</span>
+<br><br>
+<i>ShippingAdress</i>:<br>
+<input type="text" name = "ShippingAddress" id="Saddress">
+<br><br>
+<i>PhoneNumber</i>:<br>
+<input type="text" name = "PhoneNumber" id="phone">
+<span class="error">*</span>
+<br><br>
+<i>Email</i>:<br>
+<input type="email" name = "email" id="email">
+<span class="error">*</span>
+<br><br>
+<i>Password</i>:<br>
+<input type="password" name = "password" id="pass">
+<span class="error">*</span>
+<br><br>
+<br><input type="submit" class="Button" value="Sign Up">
+</form>
+            
+    <div class="Footer"><a href = "homepage.php"> ZLASH.com </a></div>
+        </div>
+    </body>
+</html>

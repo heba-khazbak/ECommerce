@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+    <title>ZLASH - Tracking Products</title>    
+    <link rel="stylesheet" href="css/Main.css" type="text/css"/>
+    <link rel="stylesheet" href="css/SignUp.css" type="text/css"/>
+</head>
+    
+    <body>
+        
+        <div class="Header">
+        <a href="HomePage.php">
+        <img src="css/Logo.png" alt="Logo" style="width:633; height:181px" >
+        </a>
+        </div>
+    
+        <div class="Header1">
+            <p >Order Tracking Page</p>
+        </div>
+
+        <div class="cont">
+ 
+<form action=tracking.php method="POST" class="editForm">
+<i class="text">Transaction ID</i>:<br>
+<input type="text" name = "TransactionID" id="Lname">
+<span class="error">* <?php echo $_SESSION['namer'];?> </span>
+ <br><br>
+<br><input type="submit" value="Submit" class="Button">
+</form>
+            
+<div class="Footer"><a href = "homepage.php"> ZLASH.com </a></div>
+        </div>
+    </body>
+</html>
+
